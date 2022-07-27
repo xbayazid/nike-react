@@ -1,0 +1,78 @@
+.btn-color{
+    background-color: #3D4FF3;
+    padding: 10px 20px;
+}
+
+.card-size img{
+    height: 340px;
+}
+.card-background img{
+    background-color: #F1F1F1;
+    border-radius: 15px;
+}
+.card-price{
+    color: #FA804C;
+}
+
+.text-color{
+    color: #ee9f0c;
+}
+
+.img-container {
+    position: relative;
+    width: 50%;
+  }
+  
+.hover-img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.img-container:hover .hover-img {
+    opacity: 0.3;
+  }
+  
+.img-container:hover .middle {
+    opacity: 1;
+  }
+  
+.btn-hover-color {
+    color: black;
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+
+.btn-hover-color:hover{
+    border: none;
+    background-image: linear-gradient(rgb(187, 41, 70), rgb(185, 76, 56));
+    color: white;
+  }
+
+#contact{
+    background-color: darkgray;
+}
+
+.submit-btn{
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.submit-btn:hover{
+    background-color: black;
+    color: white;
+}
